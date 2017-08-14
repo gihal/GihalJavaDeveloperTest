@@ -1,0 +1,6 @@
+onlineshop/services/ProductServiceTest.class
+onlineshop/general/GeneralUtilsTest.class
+onlineshop/entities/OrderTest.class
+onlineshop/entities/ProductTest.class
+onlineshop/services/OrderServiceTest.class
+onlineshop/general/web/ValidatorTest.class

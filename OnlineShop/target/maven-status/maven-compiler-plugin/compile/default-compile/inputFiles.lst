@@ -1,0 +1,13 @@
+/data/git/OnlineShop/src/main/java/onlineshop/entities/Product.java
+/data/git/OnlineShop/src/main/java/onlineshop/services/ProductService.java
+/data/git/OnlineShop/src/main/java/onlineshop/data/controllers/AddProductsToOrder.java
+/data/git/OnlineShop/src/main/java/onlineshop/entities/Order.java
+/data/git/OnlineShop/src/main/java/onlineshop/display/OrderDisplay.java
+/data/git/OnlineShop/src/main/java/onlineshop/general/web/Validator.java
+/data/git/OnlineShop/src/main/java/onlineshop/data/controllers/RemoveOrder.java
+/data/git/OnlineShop/src/main/java/onlineshop/data/controllers/GetOrders.java
+/data/git/OnlineShop/src/main/java/onlineshop/general/GeneralUtils.java
+/data/git/OnlineShop/src/main/java/onlineshop/services/OrderService.java
+/data/git/OnlineShop/src/main/java/onlineshop/data/controllers/GetProducts.java
+/data/git/OnlineShop/src/main/java/onlineshop/data/DataClass.java
+/data/git/OnlineShop/src/main/java/onlineshop/data/controllers/UpdateOrder.java

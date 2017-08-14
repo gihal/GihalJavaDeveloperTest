@@ -1,0 +1,60 @@
+== Answer to why I used specific frameworks and libraries for the front-end and
+backend ?
+
+Framework: jQuery
+Reason: jquery helps to create ajax requests and DOM manipulation simply and also I'm quite familiar with this framework 
+
+Library: Gson
+Reason: Gson simplifies the conversion of pure Java objects to JSON string
+
+
+Library: Mockito
+Reason: Helps me to create HttpServletRequest instances that use in some JUnits
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+== Answer to how the persistent layer could be implemented
+
+We can use JPA with any relational database to implement the persistent layer. Then we can make Order.java and Product.java as persistence entities by annotating @Entity. We have to add repository interfaces (these interfaces not implemented yet). Then we are able to use these repositories in our service classes (Orderservice.java and ProductService.java) to write data related functions.
+Tables : product,order
+
+product table
++---------------+--------------+  
+| Field         | Type         |   
++---------------+--------------+  
+| id            | long         |  
+| name          | varchar      |      
+| description   | varchar      |    
+| availableItems| int          | 
++---------------+--------------+
+
+order table
++---------------+--------------+  
+| Field         | Type         |   
++---------------+--------------+  
+| id            | long         |  
+| ptr_product   | long         |      
+| quantity      | int          |    
++---------------+--------------+
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+== Answer to how long did it take yo to create the code?
+
+I spent overall 6hrs and 15 minutes to complete the task.
+
+Backend design and implementation and writing unit tests: 2.5hr
+Write general functions and write unite tests for general functions: 1.5hr
+UI design and implementation: 1hr
+Writing client side functions: 1hr
+Testing:0.25hr
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+Notes:
+
+== To make the code much easier to maintained and extend I decided to add some general classes that contains general function
+
+GeneralUtils.java: Created this class which contains all the general functions that can use in many places. Also, can write more general functions inside this class when needed.
+
+Validator.java: Created this class to validate request parameters. Currently, it has only two functions that can use to validate long and String values which come with the request.

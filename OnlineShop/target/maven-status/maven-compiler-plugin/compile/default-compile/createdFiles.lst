@@ -1,0 +1,15 @@
+onlineshop/entities/Product.class
+onlineshop/services/ProductService.class
+onlineshop/data/controllers/AddProductsToOrder$1.class
+onlineshop/services/OrderService.class
+onlineshop/data/controllers/AddProductsToOrder.class
+onlineshop/display/OrderDisplay.class
+onlineshop/entities/Order.class
+onlineshop/general/GeneralUtils.class
+onlineshop/data/controllers/GetProducts.class
+onlineshop/data/DataClass.class
+onlineshop/data/controllers/UpdateOrder.class
+onlineshop/data/controllers/RemoveOrder.class
+onlineshop/general/web/Validator.class
+onlineshop/data/controllers/UpdateOrder$1.class
+onlineshop/data/controllers/GetOrders.class
